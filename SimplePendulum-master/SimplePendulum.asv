@@ -18,7 +18,7 @@ Phi   = 3.14159;        % Position [radians] at 180 degree
 dtPhi = 1;               % Velocity [rad/sec]
 
 % Simulation parameters
-duration = 1;                             % Duration of the Simulation SECONDS I THINK 
+duration = 1;                             % Duration of the Simulation 
 fps      = 100;                             % number of points per duration 
 %movie   = true;                           % true if wanted to save animation as avi file
 movie    = false ;                         % false if only want to view animation

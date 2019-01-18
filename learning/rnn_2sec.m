@@ -1,12 +1,8 @@
+%%% FOR LEARNING THE FORWARD DYNAMICS
 
-new=8000;
-srt=0;
-x=[inp(:,1+srt:new+srt)];
+x=input force;
 
-%t=[Orin(2:new+1,:)'];
-%t=[Pos(2:new+1,:)'];
-%t=[Pos(1+srt:new+srt,:)'];
-t=[Pos(1+srt:new+srt,:)';Orin(1+srt:new+srt,:)'];
+t=system states;
 
 
 X = tonndata(x,true,false);
